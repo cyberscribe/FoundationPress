@@ -44,5 +44,5 @@
 
 	<?php get_template_part( 'parts/top-bar' ); ?>
 
-<section class="container" role="document">
+<section class="container" role="document" id="page">
 	<?php do_action( 'foundationpress_after_header' ); ?>

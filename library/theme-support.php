@@ -29,6 +29,13 @@ function foundationpress_theme_support() {
 
 	// Declare WooCommerce support per http://docs.woothemes.com/document/third-party-custom-theme-compatibility/
 	add_theme_support( 'woocommerce' );
+
+    add_theme_support( 'infinite-scroll', 
+                        array(
+                            'container' => 'content',
+                            'footer' => 'page'
+                             ) 
+                     );
 }
 
 add_action( 'after_setup_theme', 'foundationpress_theme_support' );

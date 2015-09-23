@@ -10,7 +10,7 @@
 get_header(); ?>
 
 <div class="row">
-	<div class="small-12 large-8 columns" role="main">
+	<div class="small-12 large-8 columns" role="main" id="content">
 
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
